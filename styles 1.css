@@ -1,1 +1,93 @@
-styles 1.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* White */
+    color: #C2185B; /* Dark Pink */
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #FF69B4; /* Soft Pink */
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FF1493; /* Bright Pink */
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #C2185B; /* Dark Pink on hover */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #FFF0F5; /* Light Pink */
+    box-shadow: 0 0 10px rgba(255, 20, 147, 0.2);
+}
+
+/* About Section */
+#about {
+    background-color: #FFEEF0; /* Soft White-Pink */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+/* Projects */
+.project {
+    background-color: #FFD6E0; /* Very Light Pink */
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 20, 147, 0.4);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #FF1493; /* Bright Pink */
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #FF1493; /* Bright Pink */
+    color: #FFFFFF; /* White */
+    padding: 5px 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #FF69B4; /* Soft Pink */
+    color: white;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
