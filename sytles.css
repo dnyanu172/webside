@@ -1,1 +1,93 @@
-css flie
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* White */
+    color: #002366; /* Dark Blue */
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #1E3A8A; /* Deep Blue */
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF; /* Bright Blue */
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #002366; /* Dark Blue on hover */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #F0F8FF; /* Light Blue-White */
+    box-shadow: 0 0 10px rgba(0, 102, 204, 0.2);
+}
+
+/* About Section */
+#about {
+    background-color: #E6F2FF; /* Soft Blue */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+/* Projects */
+.project {
+    background-color: #D6E4FF; /* Light Blue */
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 70, 150, 0.4);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007BFF; /* Bright Blue */
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #007BFF; /* Bright Blue */
+    color: #FFFFFF; /* White */
+    padding: 5px 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #1E3A8A; /* Deep Blue */
+    color: white;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
